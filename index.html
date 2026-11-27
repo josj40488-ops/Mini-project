@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Alex Morgan, a creative front-end developer.">
+  <title>Alex Morgan | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">A</span>
+        <span>Alex Morgan</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Alex Morgan</h1>
+        <p class="hero-role">Front-end developer &amp; digital designer</p>
+        <p class="hero-text">I create thoughtful digital experiences that combine clean code, bold visuals and a human touch.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View my work</a>
+          <a class="button button-secondary" href="#contact">Let's talk</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Portrait illustration">
+        <div class="hero-blob"></div>
+        <div class="portrait-frame">
+          <div class="portrait-placeholder">
+            <span>AM</span>
+          </div>
+        </div>
+        <div class="experience-badge">
+          <strong>5+</strong>
+          <span>Years of<br>experience</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">Get to know me</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <span class="about-number">01</span>
+          <h3>Who I am</h3>
+          <p>I'm a detail-oriented developer who enjoys turning complex ideas into simple, engaging experiences. My work blends design thinking with reliable front-end engineering.</p>
+        </div>
+        <div class="about-card">
+          <span class="about-number">02</span>
+          <h3>What I do</h3>
+          <p>I build responsive websites and intuitive interfaces for brands, startups and creative teams. Every project starts with listening and ends with polished execution.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">My expertise</p>
+        <h2>Skills &amp; Tools</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-title"><span>HTML &amp; CSS</span><strong>95%</strong></div>
+          <div class="progress-track"><div class="progress-bar" data-progress="95"></div></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-title"><span>JavaScript</span><strong>88%</strong></div>
+          <div class="progress-track"><div class="progress-bar" data-progress="88"></div></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-title"><span>UI / UX Design</span><strong>82%</strong></div>
+          <div class="progress-track"><div class="progress-bar" data-progress="82"></div></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-title"><span>React</span><strong>78%</strong></div>
+          <div class="progress-track"><div class="progress-bar" data-progress="78"></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>Featured Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-preview preview-one">
+            <div class="browser-dots"><span></span><span></span><span></span></div>
+            <div class="preview-layout">
+              <div class="preview-copy"><i></i><i></i><b></b></div>
+              <div class="preview-shape"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <p>Web Design / Development</p>
+            <h3>Studio Nova</h3>
+            <a href="#contact" aria-label="View Studio Nova project">View project <span>↗</span></a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview preview-two">
+            <div class="browser-dots"><span></span><span></span><span></span></div>
+            <div class="phone-preview">
+              <div class="phone-notch"></div>
+              <div class="phone-circle"></div>
+              <div class="phone-lines"><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <p>Mobile App / UI Design</p>
+            <h3>Wanderly</h3>
+            <a href="#contact" aria-label="View Wanderly project">View project <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow">Let's create together</p>
+          <h2>Have a project in mind?</h2>
+          <p>Send me a message and let's turn your idea into something memorable.</p>
+          <a href="mailto:hello@alexmorgan.design">hello@alexmorgan.design</a>
+        </div>
+
+        <form class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              <small class="error-message"></small>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+            <small class="error-message"></small>
+          </div>
+          <button class="button button-primary" type="submit">Send message</button>
+          <p class="form-success" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#home">
+      <span class="brand-mark">A</span>
+      <span>Alex Morgan</span>
+    </a>
+    <p>&copy; <span id="year"></span> Alex Morgan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
